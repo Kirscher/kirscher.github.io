@@ -1,6 +1,7 @@
-J'ai utilisé le template suivant pour mon site personnel :
+Site personnel / CV interactif @kirscher
+J'ai utilisé le template HTML5 UP suivant pour mon site personnel :
 
-Read Only by HTML5 UP
+Read Only :
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
@@ -8,6 +9,9 @@ AJ
 aj@lkn.io | @ajlkn
 
 Credits:
+	Photos :
+		@kirscher
+		
 	Icons:
 		Font Awesome (fontawesome.io)
 
