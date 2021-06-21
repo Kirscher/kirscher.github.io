@@ -1,5 +1,5 @@
 Site personnel / CV interactif @kirscher
-J'ai utilisé le template HTML5 UP suivant pour mon site personnel :
+J'ai utilisé le template HTML5 UP suivant pour le design :
 
 Read Only :
 html5up.net | @ajlkn
