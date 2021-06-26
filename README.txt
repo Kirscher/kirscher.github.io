@@ -1,5 +1,5 @@
 Site personnel / CV interactif @kirscher
-J'ai utilisé le template suivant pour le design :
+J'ai utilisé le template suivant / I used the following template :
 
 Read Only :
 html5up.net | @ajlkn
