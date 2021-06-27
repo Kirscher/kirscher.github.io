@@ -1,4 +1,4 @@
-Site personnel / CV interactif @kirscher
+Site personnel - CV interactif @kirscher
 J'ai utilisé le template suivant / I used the following template :
 
 Read Only :
