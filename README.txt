@@ -1,4 +1,4 @@
-Site personnel - CV interactif
+Site personnel - CV
 @kirscher
 J'ai utilisé le template suivant / I used the following template :
 
