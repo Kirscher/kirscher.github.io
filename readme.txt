@@ -1,17 +1,14 @@
-Site personnel - CV
-@kirscher
-J'ai utilisé le template suivant / I used the following template :
-
-Read Only :
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-AJ
-aj@lkn.io | @ajlkn
+Personal web page
+		@Kirscher
 
 Credits:
-	Photos :
-		@kirscher
+	HTML Template: 
+		'Read Only'
+		html5up.net | @ajlkn
+		Free for personal and commercial use under the CCA 3.0 license
+	
+	Pictures:
+		@Kirscher
 		
 	Icons:
 		Font Awesome (fontawesome.io)
