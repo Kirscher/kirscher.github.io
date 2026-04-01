@@ -11,3 +11,5 @@ Our team ranked **1st** in the [MICCAI 2025 CURVAS-PDACVI Challenge](https://cur
 The challenge focused on ensuring that deep learning-based PDAC segmentation is uncertainty-aware, well-calibrated, and robust, to support the clinical assessment of tumor resectability. Participants were evaluated not only on segmentation accuracy but also on the quality and reliability of their uncertainty estimates.
 
 This result was presented at the [MICCAI 2025](https://conferences.miccai.org/2025/) conference in Daejeon, South Korea.
+
+See the [LinkedIn post](https://www.linkedin.com/posts/tristan-k-_proud-to-share-that-twintrack-won-1st-activity-7377692696133664768-17Ze) for more details.
