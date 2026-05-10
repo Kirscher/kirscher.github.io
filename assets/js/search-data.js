@@ -66,7 +66,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
-            },},{
+            },},{id: "news-a-paper-was-accepted-at-midl-2026",
+          title: 'A paper was accepted at MIDL 2026.',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
