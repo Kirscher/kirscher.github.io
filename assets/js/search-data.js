@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-data-science-and-artificial-intelligence-workshop-may-2025",
+        },{id: "post-miccai-educational-challenge-2026-tutorial",
+        
+          title: "MICCAI Educational Challenge 2026 Tutorial",
+        
+        description: "Tutorial materials for the MICCAI Educational Challenge 2026 on misleading explanations in medical imaging.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/miccai-educational-challenge-tutorial/";
+          
+        },
+      },{id: "post-data-science-and-artificial-intelligence-workshop-may-2025",
         
           title: "Data Science and Artificial Intelligence Workshop (May 2025)",
         
