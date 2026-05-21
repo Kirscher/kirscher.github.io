@@ -122,10 +122,22 @@
         margin-top: 0.35rem;
         margin-bottom: 0.35rem;
 
-        .repo {
-          max-width: 420px;
-          padding-left: 0 !important;
-          padding-right: 0 !important;
+        a.publication-repository-link {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.4rem;
+          color: var(--global-text-color);
+          border: 1px solid var(--global-text-color);
+          border-radius: 0.2rem;
+          padding: 0.25rem 0.7rem;
+          font-size: 0.875rem;
+          line-height: 1.4;
+
+          &:hover {
+            color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
+            text-decoration: none;
+          }
         }
       }
 

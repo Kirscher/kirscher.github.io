@@ -17,6 +17,6 @@ For a full list, see my [Google Scholar](https://scholar.google.com/citations?us
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @* %}
 
 </div>

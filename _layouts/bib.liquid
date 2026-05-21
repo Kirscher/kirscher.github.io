@@ -261,7 +261,10 @@
     </div>
     {% if entry.github_repo %}
       <div class="publication-repository">
-        {% include repository/repo.liquid repository=entry.github_repo %}
+        <a href="https://github.com/{{ entry.github_repo }}" class="publication-repository-link" role="button">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          <span>{{ entry.github_repo }}</span>
+        </a>
       </div>
     {% endif %}
     {% if site.enable_publication_badges %}
