@@ -71,6 +71,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_6/";
+            },},{id: "news-paper-early-accepted-at-miccai-2026-top-9",
+          title: 'Paper early accepted at MICCAI 2026 (top 9%)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_7/";
             },},{
         id: 'social-email',
         title: 'email',
