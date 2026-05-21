@@ -118,6 +118,17 @@
         }
       }
 
+      .publication-repository {
+        margin-top: 0.35rem;
+        margin-bottom: 0.35rem;
+
+        .repo {
+          max-width: 420px;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+      }
+
       .badges {
         padding-bottom: 0.5rem;
         span {

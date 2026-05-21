@@ -259,6 +259,11 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
+    {% if entry.github_repo %}
+      <div class="publication-repository">
+        {% include repository/repo.liquid repository=entry.github_repo %}
+      </div>
+    {% endif %}
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
