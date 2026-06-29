@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-miccai-educational-challenge-2026-tutorial",
+        },{id: "post-séminaires-icube-images-june-2026",
+        
+          title: "Séminaires ICube IMAGeS (June 2026)",
+        
+        description: "Invited talk at the IMAGeS team seminar series, ICube Laboratory, Strasbourg.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/seminaire-icube-images/";
+          
+        },
+      },{id: "post-miccai-educational-challenge-2026-tutorial",
         
           title: "MICCAI Educational Challenge 2026 Tutorial",
         
