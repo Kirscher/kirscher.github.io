@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: reliable machine learning, uncertainty quantification, calibration, deep learning, robustness, semantic segmentation, medical imaging, computer vision
 lang: en
-icon: 🧠
+icon: favicon.svg
 
 url: https://kirscher.github.io
 baseurl: # leave blank for root (username.github.io site)
