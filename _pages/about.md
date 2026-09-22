@@ -30,4 +30,4 @@ From January to May 2026, I was a visiting PhD researcher at the [German Cancer 
 
 Previously, I worked as a Computer Vision Research Engineer at [SYSNAV](https://sysnav.com/), designing and deploying real-time computer vision models for autonomous navigation systems.
 
-I hold an MSc in Statistics and Economics from [ENSAE — Institut Polytechnique de Paris](https://www.ensae.fr/en) and an MSc in Engineering from [École des Mines de Saint-Étienne](https://www.mines-stetienne.fr/en/), with specializations in data science. I also completed an ERASMUS+ exchange at [KIT Karlsruhe](https://www.kit.edu/).
+I hold an MSc in Statistics and Economics from [ENSAE — Institut Polytechnique de Paris](https://www.ensae.fr/en) and an MSc in Engineering from [École des Mines de Saint-Étienne](https://www.mines-stetienne.fr/en/). I also completed an ERASMUS+ exchange at [KIT Karlsruhe](https://www.kit.edu/).

@@ -5,3 +5,11 @@
 "ICLR-W":
   url: https://iclr.cc/
   color: "#e63946"
+
+"BraTS":
+  url: https://www.med.upenn.edu/cbica/brats/
+  color: "#168aad"
+
+"MedReason":
+  url: https://medreason26.github.io/
+  color: "#d99a2b"
