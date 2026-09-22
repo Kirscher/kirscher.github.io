@@ -2,14 +2,26 @@
   url: https://www.miccai.org/
   color: "#1a73e8"
 
+"MICCAI-W":
+  url: https://www.miccai.org/
+  color: "#1a73e8"
+
+"MIDL":
+  url: https://2026.midl.io/
+  color: "#8e0a9b"
+
+"TMLR":
+  url: https://jmlr.org/tmlr/
+  color: "#182b6c"
+
 "ICLR-W":
   url: https://iclr.cc/
   color: "#e63946"
 
 "BraTS":
   url: https://www.med.upenn.edu/cbica/brats/
-  color: "#168aad"
+  color: "#1a73e8"
 
 "MedReason":
   url: https://medreason26.github.io/
-  color: "#d99a2b"
+  color: "#1a73e8"
