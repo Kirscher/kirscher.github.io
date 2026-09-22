@@ -1,6 +1,20 @@
 ---
 ---
 
+@article{kirscher2026rethinking,
+  abbr      = {TMLR},
+  title     = {Rethinking Post-Hoc Calibration in Semantic Segmentation},
+  author    = {Kirscher, Tristan and Kahl, Kim-Celine and Kovacs, Balint and Rokuss, Maximilian and Maier-Hein, Klaus and Coubez, Xavier and Meyer, Philippe and Faisan, Sylvain},
+  journal   = {Transactions on Machine Learning Research},
+  year      = {2026},
+  note      = {TMLR 2026 · Accepted},
+  arxiv     = {2607.01902},
+  html      = {https://openreview.net/forum?id=xwNoSNxgxV},
+  pdf       = {https://arxiv.org/pdf/2607.01902},
+  selected  = {true},
+  bibtex_show = {true}
+}
+
 @inproceedings{kirscher2026lost,
   abbr      = {MICCAI},
   title     = {Lost in the Folds: When Cross-Validation Is Not a Deep Ensemble for Uncertainty Estimation},
@@ -8,6 +22,7 @@
   booktitle = {29th International Conference on Medical Image Computing and Computer Assisted Intervention},
   address   = {Strasbourg, France},
   year      = {2026},
+  note      = {MICCAI 2026 · Oral · Early Accept (Top 9%)},
   arxiv     = {2605.18329},
   abstract  = {Ensemble disagreement is widely used as a proxy for epistemic uncertainty in medical image segmentation. In practice, many studies form ensembles via K-fold cross-validation (CV), yet refer to them as ``deep ensembles'' (DE). Because CV members are trained on different data subsets, their disagreement mixes seed-driven variability with data-exposure effects, which can change how uncertainty should be interpreted. We audit recent segmentation uncertainty studies and find that terminology--implementation mismatches are common. We then compare a standard 5-fold CV ensemble to a 5-member DE (fixed training set, different random seeds) under otherwise identical configurations on three multi-rater segmentation datasets spanning three modalities. We evaluate uncertainty for calibration, failure detection, ambiguity modeling, and robustness under distribution shift. DE match segmentation accuracy while improving calibration and failure detection, whereas CV ensembles sometimes correlate more strongly with inter-rater variability on the studied datasets. Thus, ensemble construction should be chosen to match the research question: DE for reliability-oriented use (e.g., selective referral/failure detection) and CV ensembles as a proxy for ambiguity. We provide a lightweight nnU-Net modification enabling DE training within the default pipeline.},
   selected  = {true},
@@ -22,12 +37,48 @@
   author    = {Kirscher, Tristan and Ertl, Alexandra and Maier-Hein, Klaus and Coubez, Xavier and Meyer, Philippe and Faisan, Sylvain},
   booktitle = {Medical Imaging with Deep Learning},
   year      = {2026},
+  note      = {MIDL 2026 · Short Paper},
   address   = {Taipei, Taiwan},
   arxiv     = {2604.15950},
   abstract  = {Pancreatic ductal adenocarcinoma (PDAC) segmentation on contrast-enhanced CT is inherently ambiguous: inter-rater disagreement among experts reflects genuine uncertainty rather than annotation noise. Standard deep learning approaches assume a single ground truth, producing probabilistic outputs that can be poorly calibrated and difficult to interpret under such ambiguity. We present TwinTrack, a framework that addresses this gap through post-hoc calibration of ensemble segmentation probabilities to the empirical mean human response (MHR), the fraction of expert annotators labeling a voxel as tumor. Calibrated probabilities are thus directly interpretable as the expected proportion of annotators assigning the tumor label, explicitly modeling inter-rater disagreement. The proposed post-hoc calibration procedure is simple and requires only a small multi-rater calibration set. It consistently improves calibration metrics over standard approaches when evaluated on the MICCAI 2025 CURVAS-PDACVI multi-rater benchmark.},
   selected  = {true},
   bibtex_show = {true},
   preview   = {midl2026.png}
+}
+
+@inproceedings{kirscher2026brats,
+  abbr      = {MICCAI-W},
+  title     = {Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026},
+  author    = {Kirscher, Tristan and Metzger, Vivian and Meyer, Philippe and Coubez, Xavier},
+  booktitle = {BrainWorks -- The Brain Abnormality Workshop at MICCAI},
+  year      = {2026},
+  address   = {Strasbourg, France},
+  arxiv     = {2609.15524},
+  github_repo = {Kirscher/BraTS2026},
+  bibtex_show = {true}
+}
+
+@inproceedings{kirscher2026medreason,
+  abbr      = {MICCAI-W},
+  title     = {Option-Aware Retrieval and Task-Specific VLM Adaptation for Medical VQA},
+  author    = {Kirscher, Tristan and Koser, Niklas C. and Pirk, Soren},
+  booktitle = {MedReason at MICCAI -- Benchmarking Medical MLLM Reasoning under Domain Shift},
+  year      = {2026},
+  address   = {Strasbourg, France},
+  arxiv     = {2609.15530},
+  html      = {https://openreview.net/forum?id=0vvODUp46Q},
+  github_repo = {Kirscher/MedReason2026},
+  bibtex_show = {true}
+}
+
+@article{riera2026pdacvi,
+  abbr      = {arXiv},
+  title     = {Assessing Pancreatic Ductal Adenocarcinoma Vascular Invasion: the PDACVI Benchmark},
+  author    = {Riera-Marín, M. and Sikha, O. K. and Rodríguez-Comas, J. and May, M. S. and Kirscher, T. and Coubez, X. and Meyer, P. and Faisan, S. and Pan, Z. and Zhou, X. and Liang, X. and Hémon, C. and Boussot, V. and Dillenseger, J.-L. and Nunes, J.-C. and Kahl, K.-C. and Lüth, C. and Traub, J. and Conze, P.-H. and Duh, M. M. and Aubanell, A. and de Figueiredo Cardoso, R. and Egger-Hackenschmidt, S. and García-López, J. and González-Ballester, M. A. and Galdran, A.},
+  journal   = {arXiv preprint arXiv:2604.27582},
+  year      = {2026},
+  arxiv     = {2604.27582},
+  bibtex_show = {true}
 }
 
 @inproceedings{kirscher2025psat,
@@ -54,7 +105,6 @@
   address   = {Vienna, Austria},
   arxiv     = {2403.03138},
   abstract  = {This work introduces a novel methodological framework for analyzing health trajectories and survival outcomes in heart failure patients. We combine NLP techniques for characterizing patient trajectories, unsupervised clustering with a new metric for measuring diagnosis distances, and survival analysis to assess patient outcomes.},
-  selected  = {true},
   bibtex_show = {true},
   preview   = {iclr2024w.png}
 }

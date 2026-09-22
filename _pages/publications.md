@@ -9,7 +9,7 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-For a full list, see my [Google Scholar](https://scholar.google.com/citations?user=jDwOJN4AAAAJ) profile.
+Journal articles, conference and workshop papers, and public preprints. See also my [Google Scholar](https://scholar.google.com/citations?user=jDwOJN4AAAAJ) profile.
 
 <!-- Bibsearch Feature -->
 
