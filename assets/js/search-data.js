@@ -83,8 +83,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
-            },},{id: "news-visiting-phd-researcher-at-dkfz-heidelberg",
-          title: 'Visiting PhD Researcher at DKFZ Heidelberg',
+            },},{id: "news-research-visit-to-dkfz-heidelberg-january-may-2026",
+          title: 'Research visit to DKFZ Heidelberg (January–May 2026)',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
@@ -98,6 +98,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_7/";
+            },},{id: "news-paper-accepted-at-tmlr",
+          title: 'Paper accepted at TMLR',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_8/";
+            },},{id: "news-miccai-2026-oral-presentation",
+          title: 'MICCAI 2026 oral presentation',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_9/";
             },},{
         id: 'social-email',
         title: 'email',
