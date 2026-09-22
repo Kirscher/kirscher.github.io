@@ -9,11 +9,11 @@ last_name: Kirscher
 contact_note: >
   Feel free to reach out by email.
 description: >
-  PhD candidate in Machine Learning at the University of Strasbourg, working on uncertainty-aware deep learning for medical image segmentation in radiotherapy.
+  Machine learning researcher working on reliable deep learning, uncertainty quantification, calibration, robustness, and medical image analysis.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: deep learning, uncertainty quantification, medical imaging, radiotherapy, computer vision, segmentation
+keywords: reliable machine learning, uncertainty quantification, calibration, deep learning, robustness, semantic segmentation, medical imaging, computer vision
 lang: en
 icon: 🧠
 
@@ -67,9 +67,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://kirscher.github.io/assets/img/prof_pic.jpg # Reuse the existing profile photo
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
