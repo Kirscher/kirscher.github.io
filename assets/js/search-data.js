@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-séminaires-icube-images-june-2026",
+        },{id: "post-fiducio-paper-accepted-at-tmlr-library-released",
+        
+          title: "Fiducio: paper accepted at TMLR, library released",
+        
+        description: "Our paper on post-hoc calibration in semantic segmentation is accepted at TMLR, and Fiducio, the accompanying open-source library, is out.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/fiducio-tmlr/";
+          
+        },
+      },{id: "post-séminaires-icube-images-june-2026",
         
           title: "Séminaires ICube IMAGeS (June 2026)",
         
