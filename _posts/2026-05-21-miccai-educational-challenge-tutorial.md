@@ -15,3 +15,5 @@ The tutorial is available as a static website, with the source code and material
 
 - Tutorial: [When Explanations Lie](https://kirscher.github.io/when-explanations-lie/)
 - Code and materials: [github.com/Kirscher/when-explanations-lie](https://github.com/Kirscher/when-explanations-lie)
+
+🏆 This tutorial won **1st place** in the MICCAI Educational Challenge 2026.
