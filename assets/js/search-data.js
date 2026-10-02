@@ -114,11 +114,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_8/";
-            },},{id: "news-miccai-2026-oral-presentation",
-          title: 'MICCAI 2026 oral presentation',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_9/";
             },},{id: "news-featured-in-miccai-2026-quot-presenting-today-quot",
           title: 'Featured in MICCAI 2026 &amp;quot;Presenting Today&amp;quot;',
           description: "",
