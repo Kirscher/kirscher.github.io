@@ -119,6 +119,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_9/";
+            },},{id: "news-featured-in-miccai-2026-quot-presenting-today-quot",
+          title: 'Featured in MICCAI 2026 &amp;quot;Presenting Today&amp;quot;',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_10/";
+            },},{id: "news-1st-place-at-the-miccai-educational-challenge-2026",
+          title: '1st Place at the MICCAI Educational Challenge 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_11/";
             },},{
         id: 'social-email',
         title: 'email',
