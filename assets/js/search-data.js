@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Publications in reverse chronological order.",
+          description: "Publications grouped by year.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -30,7 +30,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-fiducio-paper-accepted-at-tmlr-library-released",
+        },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books/";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "post-fiducio-paper-accepted-at-tmlr-library-released",
         
           title: "Fiducio: paper accepted at TMLR, library released",
         
