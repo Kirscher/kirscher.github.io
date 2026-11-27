@@ -9,6 +9,7 @@ on:
       - "assets/**"
       - "_sass/**"
       - "_scripts/**"
+      - "_plugins/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -38,6 +39,7 @@ on:
       - "assets/**"
       - "_sass/**"
       - "_scripts/**"
+      - "_plugins/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -61,6 +63,10 @@ on:
       - "!README.md"
   workflow_dispatch:
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -74,7 +80,7 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          ruby-version: "3.3"
           bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
