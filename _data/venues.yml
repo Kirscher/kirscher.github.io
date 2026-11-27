@@ -2,6 +2,10 @@
   url: https://www.miccai.org/
   color: "#1a73e8"
 
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
 "MICCAI-W":
   url: https://www.miccai.org/
   color: "#1a73e8"

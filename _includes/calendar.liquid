@@ -13,6 +13,7 @@
     <div class="calendar-wrapper" id="calendar-container" style="display: none;">
       <iframe
         id="calendar-iframe"
+        title="Upcoming events calendar"
         data-calendar-id="{{ include.calendar_id }}"
         data-timezone="{{ include.timezone | default: 'UTC' }}"
         style="{{ include.style | default: 'border:0; width:100%; height:600px;' }}"

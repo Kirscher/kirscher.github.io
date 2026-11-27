@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Science and Artificial Intelligence Workshop (May 2025)
-date: 2025-06-05 12:00:00+0200
+date: 2025-05-06 12:00:00+0200
 description: Presentation at the Data Science and AI Workshop, ICube Laboratory, Strasbourg.
 tags: [uncertainty, segmentation, presentation]
 categories: [talks]
@@ -9,7 +9,7 @@ giscus_comments: false
 related_posts: false
 ---
 
-Presentation given at the **Data Science and Artificial Intelligence Workshop** held at [ICube Laboratory](https://icube.unistra.fr/), University of Strasbourg, on June 5th, 2025.
+Presentation given at the **Data Science and Artificial Intelligence Workshop** held at [ICube Laboratory](https://icube.unistra.fr/), University of Strasbourg, on May 6th, 2025.
 
 ## Workshop Materials
 

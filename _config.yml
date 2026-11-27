@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Tristan Kirscher # the website title
 first_name: Tristan
 middle_name:
 last_name: Kirscher
@@ -10,6 +10,7 @@ contact_note: >
   Feel free to reach out by email.
 description: >
   Machine learning researcher working on reliable deep learning, uncertainty quantification, calibration, robustness, and medical image analysis.
+author: Tristan Kirscher
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -182,6 +183,8 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - mise.toml
+  - requirements.txt
   - purgecss.config.js
   - README.md
   - readme_preview/
